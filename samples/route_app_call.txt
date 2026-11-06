@@ -1,0 +1,8 @@
+Priya (Client, Sales Head): The reps in the field need to see an outlet's last three orders before they take a new one. Right now they guess.
+Arjun (BA): Understood. Should that work without internet, since many outlets have poor signal?
+Priya: Yes, it must work offline. Sync when they get back to network. Also the app should be fast, reps only spend a few minutes at each store.
+Arjun: When you say fast, is there a number, like the order screen opening in under two seconds?
+Priya: I have not thought about that. Let's say it should just feel quick.
+Priya: One more thing, supervisors want a daily summary of visits by Friday, ideally by email.
+Arjun: I will share the draft requirements with you by next Wednesday. Rahul from engineering will check offline sync feasibility.
+
