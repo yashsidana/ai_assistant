@@ -1,0 +1,24 @@
+From: Vikram Malhotra <vikram.m@bevcpg-global.com>
+To: Arjun Sharma <arjun.s@salescode.ai>
+Date: Mon, 12 Oct 2026 09:15:22 +0530
+Subject: Requirements for Van Sales Direct Store Delivery (DSD) Module
+
+Hi Arjun,
+
+Following our kickoff discussion, here are the core requirements for the Van Sales module for our beverage distribution fleet:
+
+1. Van Inventory Tracking: Each morning, the van driver must acknowledge the loaded crate count in the handheld app before beginning the route.
+2. Spot Billing & Cash Collection: During each store visit, the van rep must generate an invoice on the spot and print a receipt via Bluetooth thermal printer. The payment mode (cash, UPI, or credit) must be recorded.
+3. End-of-Day Settlement: The app must reconcile remaining van inventory against total sales and cash collected. The reconciliation process should be seamless and easy for drivers.
+4. Offline Support: Drivers operate in basements and rural highways. Spot invoicing and receipt generation must work 100% offline.
+5. ERP Integration: When returning to the depot, end-of-day settlement numbers must sync to SAP S/4HANA.
+
+Follow-ups:
+- Suresh from logistics will provide the Bluetooth printer hardware specs by October 20th.
+- Someone needs to review SAP API payload limits for batch invoice sync.
+- We also want real-time fleet GPS tracking enabled soon.
+
+Best regards,
+Vikram Malhotra
+Head of Route-to-Market, BevCPG Global
+
