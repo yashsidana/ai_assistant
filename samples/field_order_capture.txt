@@ -1,0 +1,11 @@
+Ananya (VP Sales Operations): Field reps waste 15 minutes at every grocery store discussing what to order. We want the app to predict the order before they even walk in.
+Arjun (BA): How should the suggested order quantity be determined?
+Ananya: Base it on the outlet's average weekly purchase over the last 8 weeks, adjusted for current stock on hand. The recommendation algorithm should be flexible and smart.
+Ananya: The rep must see a one-click 'Accept Suggested Order' button that populates the shopping basket instantly.
+Arjun: What happens if the suggested order exceeds the outlet's credit limit?
+Ananya: If outstanding dues plus new order value exceed credit limit, the system must block order submission and display an 'Over-limit approval required' prompt.
+Ananya: Only the Area Sales Manager can override credit blocks with a one-time OTP.
+Arjun: Who is providing the outlet historical sales database schema?
+Ananya: Tanvi from analytics will share the schema export by Friday 5 PM.
+Arjun: A technical spike is needed to benchmark local SQLite query performance for offline order history caching.
+
