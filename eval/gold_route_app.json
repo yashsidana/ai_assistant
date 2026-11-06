@@ -1,0 +1,42 @@
+{
+  "sample_name": "route_app_call.txt",
+  "expected_requirements": [
+    {
+      "id": "R1",
+      "title": "Order History Visibility",
+      "type": "functional",
+      "expected_quote_fragment": "reps in the field need to see an outlet's last three orders"
+    },
+    {
+      "id": "R2",
+      "title": "Offline Order Capture & Sync",
+      "type": "non_functional",
+      "expected_quote_fragment": "it must work offline. Sync when they get back to network"
+    },
+    {
+      "id": "R3",
+      "title": "Supervisor Visit Summary",
+      "type": "functional",
+      "expected_quote_fragment": "supervisors want a daily summary of visits by Friday"
+    },
+    {
+      "id": "R4",
+      "title": "App Performance",
+      "type": "non_functional",
+      "expected_quote_fragment": "the app should be fast"
+    }
+  ],
+  "expected_action_items": [
+    {
+      "task_fragment": "share draft requirements",
+      "expected_owner": "Arjun",
+      "expected_due_date": "next Wednesday"
+    },
+    {
+      "task_fragment": "check offline sync feasibility",
+      "expected_owner": "Rahul",
+      "expected_due_date": null
+    }
+  ]
+}
+
