@@ -1,0 +1,10 @@
+Kavita (Commercial Director): We are losing margins because distributors apply promotional discounts manually on paper sheets.
+Arjun (BA): Can you explain how trade schemes are currently structured?
+Kavita: We have two types: Buy 10 cases of SKU A, get 1 free case of SKU B. And volume slabs, like 5% discount on orders exceeding 50,000 rupees.
+Kavita: The app must automatically calculate and apply eligible trade promotions at the time of order taking so reps cannot override prices arbitrarily.
+Arjun: Should the reps see promotional banners on the product catalogue screen?
+Kavita: Yes, that would be helpful. Also, the calculation engine should be robust and scalable to support 500 active schemes without lag.
+Arjun: Understood. What happens if a retailer qualifies for two overlapping schemes?
+Kavita: We should take the higher discount. But wait, finance might disagree. Let me check with Manoj from Finance by next Tuesday.
+Arjun: I will draft the scheme eligibility calculation logic for the engineering team by Monday.
+
