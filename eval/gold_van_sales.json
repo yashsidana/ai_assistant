@@ -1,0 +1,48 @@
+{
+  "sample_name": "van_sales_sync_email.txt",
+  "expected_requirements": [
+    {
+      "id": "R1",
+      "title": "Van Inventory Loading Acknowledgement",
+      "type": "functional",
+      "expected_quote_fragment": "van driver must acknowledge the loaded crate count in the handheld app"
+    },
+    {
+      "id": "R2",
+      "title": "Spot Invoicing and Bluetooth Receipt Printing",
+      "type": "functional",
+      "expected_quote_fragment": "generate an invoice on the spot and print a receipt via Bluetooth thermal printer"
+    },
+    {
+      "id": "R3",
+      "title": "End-of-Day Van Inventory Reconciliation",
+      "type": "functional",
+      "expected_quote_fragment": "reconcile remaining van inventory against total sales and cash collected"
+    },
+    {
+      "id": "R4",
+      "title": "Offline Invoicing and Printing",
+      "type": "non_functional",
+      "expected_quote_fragment": "spot invoicing and receipt generation must work 100% offline"
+    },
+    {
+      "id": "R5",
+      "title": "SAP S/4HANA ERP Settlement Synchronization",
+      "type": "functional",
+      "expected_quote_fragment": "end-of-day settlement numbers must sync to SAP S/4HANA"
+    }
+  ],
+  "expected_action_items": [
+    {
+      "task_fragment": "provide the Bluetooth printer hardware specs",
+      "expected_owner": "Suresh",
+      "expected_due_date": "October 20th"
+    },
+    {
+      "task_fragment": "review SAP API payload limits",
+      "expected_owner": null,
+      "expected_due_date": null
+    }
+  ]
+}
+
