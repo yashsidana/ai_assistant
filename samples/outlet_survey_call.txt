@@ -1,0 +1,11 @@
+Sunil (Trade Marketing Lead): Our merchandizers visit 40 modern trade outlets each week, but we have zero visibility on shelf share against competitors.
+Arjun (BA): What specific data points must the merchandizer capture during the audit?
+Sunil: First, store check-in must enforce GPS geo-fencing within 50 meters of the outlet coordinates to prevent fake attendance.
+Sunil: Second, the merchandizer must take before-and-after photos of the main beverage cooler and primary gondola rack. The photo upload needs to be compressed automatically so mobile data is not exhausted.
+Arjun: How should share of shelf be calculated?
+Sunil: By facing counts. The rep counts total brand facings divided by total category facings. The audit questionnaire should be intuitive and quick to fill in.
+Sunil: We need an automated alert triggered to the territory manager whenever a key outlet drops below 35% shelf share.
+Arjun: Who will define the standard SKU facing master list?
+Sunil: Rajesh will send over the product facing taxonomy sheet.
+Arjun: I will prepare the UI wireframes for the audit workflow by Thursday.
+
