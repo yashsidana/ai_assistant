@@ -1,0 +1,12 @@
+Deepak (Distributor Operations Manager): Our primary distributors are complaining that damaged goods claims take 45 days to resolve.
+Arjun (BA): Can you walk through how a damage claim originates?
+Deepak: A distributor submits batch number, damaged carton count, manufacturing date, and high-resolution photo proof through the portal.
+Deepak: The system must validate that the batch was indeed billed to that distributor within the last 90 days.
+Arjun: What approval hierarchy is required before issuing a credit note?
+Deepak: Claims under 10,000 rupees should be auto-approved upon photo validation. Claims above 10,000 rupees must require Area Sales Manager sign-off.
+Deepak: Once approved, the system must generate a credit note number and post it directly to our finance ledger. The claim settlement process should be fast.
+Arjun: When you say fast, what is the target turnaround time for auto-approved claims?
+Deepak: It should happen in real-time or within 24 hours.
+Arjun: Neha from QA needs to review the credit note audit compliance guidelines.
+Deepak: I will share the current paper claim forms with you by end of day tomorrow.
+
