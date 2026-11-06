@@ -1,0 +1,36 @@
+{
+  "sample_name": "field_order_capture.txt",
+  "expected_requirements": [
+    {
+      "id": "R1",
+      "title": "Historical Velocity Order Suggestion",
+      "type": "functional",
+      "expected_quote_fragment": "Base it on the outlet's average weekly purchase over the last 8 weeks, adjusted for current stock on hand"
+    },
+    {
+      "id": "R2",
+      "title": "One-Click Order Acceptance",
+      "type": "functional",
+      "expected_quote_fragment": "one-click 'Accept Suggested Order' button that populates the shopping basket instantly"
+    },
+    {
+      "id": "R3",
+      "title": "Credit Limit Validation and ASM OTP Override",
+      "type": "constraint",
+      "expected_quote_fragment": "If outstanding dues plus new order value exceed credit limit, the system must block order submission"
+    }
+  ],
+  "expected_action_items": [
+    {
+      "task_fragment": "share the schema export",
+      "expected_owner": "Tanvi",
+      "expected_due_date": "Friday 5 PM"
+    },
+    {
+      "task_fragment": "benchmark local SQLite query performance",
+      "expected_owner": null,
+      "expected_due_date": null
+    }
+  ]
+}
+
