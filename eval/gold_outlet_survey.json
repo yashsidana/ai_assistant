@@ -1,0 +1,42 @@
+{
+  "sample_name": "outlet_survey_call.txt",
+  "expected_requirements": [
+    {
+      "id": "R1",
+      "title": "GPS Geo-fencing Attendance Check-in",
+      "type": "constraint",
+      "expected_quote_fragment": "store check-in must enforce GPS geo-fencing within 50 meters"
+    },
+    {
+      "id": "R2",
+      "title": "Before-and-After Asset Photo Capture with Compression",
+      "type": "functional",
+      "expected_quote_fragment": "merchandizer must take before-and-after photos of the main beverage cooler"
+    },
+    {
+      "id": "R3",
+      "title": "Facing Count Share-of-Shelf Computation",
+      "type": "functional",
+      "expected_quote_fragment": "rep counts total brand facings divided by total category facings"
+    },
+    {
+      "id": "R4",
+      "title": "Low Share Alert Notification",
+      "type": "functional",
+      "expected_quote_fragment": "automated alert triggered to the territory manager whenever a key outlet drops below 35%"
+    }
+  ],
+  "expected_action_items": [
+    {
+      "task_fragment": "send over the product facing taxonomy sheet",
+      "expected_owner": "Rajesh",
+      "expected_due_date": null
+    },
+    {
+      "task_fragment": "prepare UI wireframes for audit workflow",
+      "expected_owner": "Arjun",
+      "expected_due_date": "Thursday"
+    }
+  ]
+}
+
