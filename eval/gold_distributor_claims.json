@@ -1,0 +1,42 @@
+{
+  "sample_name": "distributor_claims.txt",
+  "expected_requirements": [
+    {
+      "id": "R1",
+      "title": "Claim Submission Form and Photo Upload",
+      "type": "functional",
+      "expected_quote_fragment": "distributor submits batch number, damaged carton count, manufacturing date, and high-resolution photo proof"
+    },
+    {
+      "id": "R2",
+      "title": "90-Day Billing History Validation",
+      "type": "constraint",
+      "expected_quote_fragment": "validate that the batch was indeed billed to that distributor within the last 90 days"
+    },
+    {
+      "id": "R3",
+      "title": "Tiered Approval Hierarchy (ASM Sign-off)",
+      "type": "functional",
+      "expected_quote_fragment": "Claims under 10,000 rupees should be auto-approved upon photo validation. Claims above 10,000 rupees must require Area Sales Manager sign-off"
+    },
+    {
+      "id": "R4",
+      "title": "Finance Ledger Credit Note Posting",
+      "type": "functional",
+      "expected_quote_fragment": "generate a credit note number and post it directly to our finance ledger"
+    }
+  ],
+  "expected_action_items": [
+    {
+      "task_fragment": "review credit note audit compliance guidelines",
+      "expected_owner": "Neha",
+      "expected_due_date": null
+    },
+    {
+      "task_fragment": "share current paper claim forms",
+      "expected_owner": "Deepak",
+      "expected_due_date": "end of day tomorrow"
+    }
+  ]
+}
+
