@@ -1,0 +1,42 @@
+{
+  "sample_name": "trade_promotion_call.txt",
+  "expected_requirements": [
+    {
+      "id": "R1",
+      "title": "Automated Trade Promotion Application",
+      "type": "functional",
+      "expected_quote_fragment": "automatically calculate and apply eligible trade promotions at the time of order taking"
+    },
+    {
+      "id": "R2",
+      "title": "Promotional Banner Visibility",
+      "type": "functional",
+      "expected_quote_fragment": "reps see promotional banners on the product catalogue screen"
+    },
+    {
+      "id": "R3",
+      "title": "Calculation Engine Scalability",
+      "type": "non_functional",
+      "expected_quote_fragment": "calculation engine should be robust and scalable to support 500 active schemes"
+    },
+    {
+      "id": "R4",
+      "title": "Overlapping Promotion Conflict Resolution",
+      "type": "functional",
+      "expected_quote_fragment": "take the higher discount"
+    }
+  ],
+  "expected_action_items": [
+    {
+      "task_fragment": "check with Manoj from Finance",
+      "expected_owner": "Kavita",
+      "expected_due_date": "next Tuesday"
+    },
+    {
+      "task_fragment": "draft scheme eligibility calculation logic",
+      "expected_owner": "Arjun",
+      "expected_due_date": "Monday"
+    }
+  ]
+}
+
